@@ -1,0 +1,6 @@
+{
+  "extends": "@modelbest",
+  "plugins": [
+    "modelbest"
+  ]
+}

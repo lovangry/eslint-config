@@ -16,7 +16,7 @@
     "@antfu/eslint-config": "workspace:*",
     "bumpp": "^9.1.1",
     "eslint": "^8.44.0",
-    "eslint-plugin-antfu": "link:./packages/eslint-plugin-antfu",
+    "eslint-plugin-antfu": "link:./packages/eslint-plugin-modelbest",
     "rimraf": "^5.0.1",
     "typescript": "^5.1.6"
   }

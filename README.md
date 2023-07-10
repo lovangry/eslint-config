@@ -1,4 +1,6 @@
-# @antfu/eslint-config
+# @modelbest/eslint-config
+
+Forked from [`@modelbest/eslint-config`](https://github.com/lovangry/eslint-config)
 
 [![npm](https://img.shields.io/npm/v/@antfu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@antfu/eslint-config)
 
@@ -15,14 +17,14 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @antfu/eslint-config
+pnpm add -D eslint @modelbest/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@antfu"
+  "extends": "@modelbest"
 }
 ```
 
@@ -53,9 +55,9 @@ Add the following settings to your `settings.json`:
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.organizeImports": false,
+    "source.organizeImports": false
   },
-  
+
   // The following is optional.
   // It's better to put under project setting `.vscode/settings.json`
   // to avoid conflicts with working with different eslint configs
@@ -84,7 +86,7 @@ Type aware rules are enabled when a `tsconfig.eslint.json` is found in the proje
 process.env.ESLINT_TSCONFIG = 'tsconfig.json'
 
 module.exports = {
-  extends: '@antfu'
+  extends: '@modelbest'
 }
 ```
 
@@ -143,6 +145,8 @@ Or you can always fork this repo and make your own.
 - [antfu/ts-starter](https://github.com/antfu/ts-starter) - My starter template for TypeScript library
 - [antfu/vitesse](https://github.com/antfu/vitesse) - My starter template for Vue & Vite app
 
-## License
+## 📄 License
 
-[MIT](./LICENSE) License &copy; 2019-PRESENT [Anthony Fu](https://github.com/antfu)
+The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
+
+Made with ❤️
