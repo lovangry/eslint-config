@@ -1,6 +1,6 @@
 # @modelbest/eslint-config
 
-Forked from [`@modelbest/eslint-config`](https://github.com/lovangry/eslint-config)
+Forked from [`@antfu/eslint-config`](https://github.com/antfu/eslint-config)
 
 [![npm](https://img.shields.io/npm/v/@antfu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@antfu/eslint-config)
 
