@@ -56,7 +56,7 @@ module.exports = {
     'comma-style': ['error', 'last'],
     'computed-property-spacing': ['error', 'never', { enforceForClassMembers: true }],
     'constructor-super': 'error',
-    'curly': ['error', 'all'],
+    'curly': ['error', 'multi-line'],
     'default-case-last': 'error',
     'dot-location': ['error', 'property'],
     'dot-notation': ['error', { allowKeywords: true }],

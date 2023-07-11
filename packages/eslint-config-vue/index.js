@@ -29,6 +29,7 @@ module.exports = {
       : '@modelbest/eslint-config-basic',
   ],
   rules: {
+    'vue/singleline-html-element-content-newline': 'off',
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
     'vue/require-prop-types': 'off',
@@ -70,7 +71,8 @@ module.exports = {
     'vue/array-bracket-spacing': ['error', 'never'],
     'vue/arrow-spacing': ['error', { before: true, after: true }],
     'vue/block-spacing': ['error', 'always'],
-    'vue/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    // 'vue/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    'vue/brace-style': 'off',
     'vue/comma-dangle': ['error', 'always-multiline'],
     'vue/comma-spacing': ['error', { before: false, after: true }],
     'vue/comma-style': ['error', 'last'],
