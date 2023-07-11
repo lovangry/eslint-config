@@ -396,7 +396,7 @@ module.exports = {
     // modelbest
     'modelbest/if-newline': 'error',
     'modelbest/import-dedupe': 'error',
-    'modelbest/top-level-function': 'error',
+    'modelbest/top-level-function': 'off',
     // 'modelbest/prefer-inline-type-import': 'error',
   },
 }
