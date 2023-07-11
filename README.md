@@ -129,21 +129,12 @@ Sure, you can override the rules in your `.eslintrc` file.
 
 ```jsonc
 {
-  "extends": "@antfu",
+  "extends": "@modelbest",
   "rules": {
     // your rules...
   }
 }
 ```
-
-Or you can always fork this repo and make your own.
-
-## Check Also
-
-- [antfu/dotfiles](https://github.com/antfu/dotfiles) - My dotfiles
-- [antfu/vscode-settings](https://github.com/antfu/vscode-settings) - My VS Code settings
-- [antfu/ts-starter](https://github.com/antfu/ts-starter) - My starter template for TypeScript library
-- [antfu/vitesse](https://github.com/antfu/vitesse) - My starter template for Vue & Vite app
 
 ## 📄 License
 
