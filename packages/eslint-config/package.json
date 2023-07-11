@@ -1,7 +1,7 @@
 {
   "name": "@modelbest/eslint-config",
   "version": "0.0.1",
-  "description": "Anthony's ESLint config",
+  "description": "Modelbest ESLint config",
   "author":  "lovangry <272613008@qq.com> (https://github.com/lovangry)",
   "license": "MIT",
   "homepage": "https://github.com/lovangry/eslint-config",

@@ -155,11 +155,11 @@ module.exports = {
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 
-    // antfu
-    'antfu/generic-spacing': 'error',
-    'antfu/no-cjs-exports': 'error',
-    'antfu/no-ts-export-equal': 'error',
-    'antfu/no-const-enum': 'error',
+    // modelbest
+    'modelbest/generic-spacing': 'error',
+    'modelbest/no-cjs-exports': 'error',
+    'modelbest/no-ts-export-equal': 'error',
+    'modelbest/no-const-enum': 'error',
 
     // off
     '@typescript-eslint/consistent-indexed-object-style': 'off',
